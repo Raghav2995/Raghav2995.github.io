@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html{
+	scroll-behaviour:smooth;
+}
+
+.accordion {
+  background-color: #87ceef;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #87ceef;
+  overflow: hidden;
+}
+
+@font-face {
+font-family:"Product Sans";
+src: url("fonts/ps.woff") format("woff");
+src: url("fonts/ps.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.p1 {
+  font-family: 'ps';
+  src: url("fonts/ps.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  background: linear-gradient(to left bottom, #87CEEB, #0000ff);
+  line-height: 2;
+  letter-spacing: 1px
+}
+.div {
+  font-family: ps;
+  background: linear-gradient(to bottom, red 60%, blue 0%);
+}
+
+.div1 {
+  font-family: ps;
+  background: linear-gradient(to bottom, red 60%, blue 0%);
+}
+
+.body {
+  font-family: "ps"
+  src: url("fonts/ps.woff") format("woff")
+  margin: 0;
+  background: linear-gradient(to bottom, red 60%, blue 0%);
+
+  height:100vh;
+  text-align:center;
+  color:#fff;
+}
+
+.logo{
+  width:20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width:80%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url("images/smART.jpg");
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #465aee;
+}
+#search{
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+
+.primary {
+	margin-top: 25vh;
+	margin-bottom: 0;
+	text-align: center;
+	line-height: 1.4;
+	font-weight: 650;
+}
+
+.secondary {
+	text-align: center;
+	font-weight: 650;
+}
+
+.gradiented {
+	background: linear-gradient(to left bottom, #a9a9a9, #000000);
+	animation: gradient 20s ease infinite;
+}
+
+.gradiented_text {
+  font-family: 'Product Sans';
+  src: url("fonts/ps.woff") format("woff");
+  font-weight:bold;
+  font-style:normal;
+	background: linear-gradient(to left bottom,  #0000ff, #000000);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 20s ease infinite;
+}
+.control-group {
+  margin-bottom: 15px;
+}
+.form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.white {
+    color: #fff;
+}
+.container p {
+    font-style: normal !important;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+.theme-selector {
+  display: none;
+}
